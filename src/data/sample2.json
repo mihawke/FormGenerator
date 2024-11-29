@@ -1,0 +1,38 @@
+{
+    "formTitle": "Personal Bio",
+    "formDescription": "Form to record users Personal Bio",
+    "fields": [
+      {
+        "id": "firstname",
+        "type": "text",
+        "label": "First Name",
+        "required": true,
+        "placeholder": "Enter your full name"
+      },
+      {
+        "id": "lastname",
+        "type": "text",
+        "label": "Last Name",
+        "required": true,
+        "placeholder": "Enter your full name"
+      },
+      {
+        "id": "email",
+        "type": "email",
+        "label": "Email Address",
+        "required": true,
+        "placeholder": "you@example.com",
+        "validation": {
+          "pattern": "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$",
+          "message": "Please enter a valid email address"
+        }
+      },
+      {
+        "id": "date",
+        "type": "date",
+        "label": "Date of Birth",
+        "required": true
+      }
+    ]
+  }
+  
